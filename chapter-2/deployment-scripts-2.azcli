@@ -6,7 +6,7 @@ az login
 az account show --query name
 
 
-# Create new repository secret 
+# Create new repository secret my project
 # set variables
 $subscriptionId=$(az account show --query id -o tsv)
 $appName="GitHub-BicepTest-Actions"
