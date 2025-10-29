@@ -6,7 +6,7 @@ az login
 az account show --query name
 
 
-# Create new repository secret 
+# Create new repository secret for testing 
 # set variables
 $subscriptionId=$(az account show --query id -o tsv)
 $appName="GitHub-BicepTest-Actions"
@@ -39,4 +39,5 @@ az ad sp create-for-rbac --name $appName `
 #    "clientSecret": "yyy",       
 #    "subscriptionId": "aaaaaa",
 #    "tenantId": "bbbbbbbb"
-# }
+# 
+}
