@@ -1,7 +1,3 @@
-# .github/CODEOWNERS
-
-# All Azure Bicep files reviewed by Satheesh
-*.bicep @satheeshpunav
-
-# All GitHub workflow files reviewed by you
-.github/workflows/* @satheeshpunav
+# Codeowners for these exercise files:
+# * (asterisk) denotes "all files and folders"
+# Example: * @producer @instructor
