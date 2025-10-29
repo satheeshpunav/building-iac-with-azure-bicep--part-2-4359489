@@ -2,7 +2,7 @@
 # Log into Azure
 az login
 
-# Show current subscription (use 'Az account set' to change subscription)
+# Show current subscription (use 'Az account set' to change subscription list)
 az account show --query name
 
 
