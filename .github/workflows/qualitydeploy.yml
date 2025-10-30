@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
 
-# Define environment parameters
+# Define environment parameters  checking code 
 env:
   ENVIRONMENT_TYPE: Test
   REGION: eastus2
